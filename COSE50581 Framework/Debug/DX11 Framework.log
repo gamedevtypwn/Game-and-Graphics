@@ -1,0 +1,37 @@
+﻿Build started 11/29/2014 8:55:59 AM.
+     1>Project "G:\Jess' house\Further Game and Graphics\COSE50581 Framework\DX11 Framework.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oi /Oy- /D WIN32 /D _DEBUG /D DEBUG /D PROFILE /D _WINDOWS /D D3DXFX_LARGEADDRESS_HANDLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /openmp- /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  "..\..\..\Jess' house\Further Game and Graphics\COSE50581 Framework\Camera.cpp" "..\..\..\Jess' house\Further Game and Graphics\COSE50581 Framework\GameObject.cpp" Application.cpp "DX11 Framework.cpp"
+         Camera.cpp
+         GameObject.cpp
+     1>g:\jess' house\further game and graphics\cose50581 framework\gameobject.cpp(79): warning C4100: 'elapsedTime' : unreferenced formal parameter
+     1>g:\jess' house\further game and graphics\cose50581 framework\gameobject.cpp(96): warning C4100: 'pd3dDevice' : unreferenced formal parameter
+         Application.cpp
+     1>g:\jess' house\further game and graphics\cose50581 framework\application.h(94): warning C4324: 'Application' : structure was padded due to __declspec(align())
+     1>g:\jess' house\further game and graphics\cose50581 framework\application.cpp(89): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>g:\jess' house\further game and graphics\cose50581 framework\application.cpp(889): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>g:\jess' house\further game and graphics\cose50581 framework\application.cpp(900): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>g:\jess' house\further game and graphics\cose50581 framework\application.cpp(909): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>g:\jess' house\further game and graphics\cose50581 framework\application.cpp(920): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>g:\jess' house\further game and graphics\cose50581 framework\application.cpp(934): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>g:\jess' house\further game and graphics\cose50581 framework\application.cpp(946): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>g:\jess' house\further game and graphics\cose50581 framework\application.cpp(962): warning C4238: nonstandard extension used : class rvalue used as lvalue
+         DX11 Framework.cpp
+     1>g:\jess' house\further game and graphics\cose50581 framework\application.h(94): warning C4324: 'Application' : structure was padded due to __declspec(align())
+     1>g:\jess' house\further game and graphics\cose50581 framework\dx11 framework.cpp(8): warning C4316: 'Application' : object allocated on the heap may not be aligned 16
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\DX11 Framework.res" "DX11 Framework.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Jess' house\Further Game and Graphics\COSE50581 Framework\Debug\DX11 Framework.exe" /INCREMENTAL /NOLOGO d3d11.lib d3dcompiler.lib dxguid.lib winmm.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"G:\Jess' house\Further Game and Graphics\COSE50581 Framework\Debug\DX11 Framework.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Jess' house\Further Game and Graphics\COSE50581 Framework\Debug\DX11 Framework.lib" /MACHINE:X86 /SAFESEH  "Debug\DX11 Framework.res"
+         Debug\Camera.obj
+         Debug\GameObject.obj
+         Debug\Application.obj
+         "Debug\DX11 Framework.obj"
+     1>Camera.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         DX11 Framework.vcxproj -> G:\Jess' house\Further Game and Graphics\COSE50581 Framework\Debug\DX11 Framework.exe
+     1>Done Building Project "G:\Jess' house\Further Game and Graphics\COSE50581 Framework\DX11 Framework.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:27.61
